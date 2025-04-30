@@ -1,0 +1,35 @@
+{
+    "name": "Buenos Aries",
+    "sheep": [
+        {
+            "red": 255,
+            "green": 0,
+            "blue": 0,
+            "personality": "Calm",
+            "mood": "neutral",
+            "name": "Bob",
+            "position": 0,
+            "hunger": 93
+        },
+        {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "personality": "Calm",
+            "mood": "neutral",
+            "name": "Carl",
+            "position": 1,
+            "hunger": 93
+        },
+        {
+            "red": 0,
+            "green": 0,
+            "blue": 255,
+            "personality": "Party",
+            "mood": "neutral",
+            "name": "Jim",
+            "position": 2,
+            "hunger": 93
+        }
+    ]
+}
