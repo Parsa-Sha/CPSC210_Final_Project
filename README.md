@@ -130,7 +130,7 @@ Sheep Jim's hunger went down.
 
 
 Phase 4: Task 3  
-A refactoring change I can make is to convert Mood into an Enumeration or an integr=er. This would make the mood change function much easier, as I could simply increase or decrease it, instead of having a switch which takes the current mood (which is a string) and returns the changed mood as another string. Another refactoring change could be to have Ranch extend or implement List or ArrayList. This is because there are many elements that Ranch has in common with the List type, and the majority of Ranch functions involve the existing ArrayList within the Ranch class. 
+A refactoring change I can make is to convert Mood into an Enumeration or an integer. This would make the mood change function much easier, as I could simply increase or decrease it, instead of having a switch which takes the current mood (which is a string) and returns the changed mood as another string. Another refactoring change could be to have Ranch extend or implement List or ArrayList. This is because there are many elements that Ranch has in common with the List type, and the majority of Ranch functions involve the existing ArrayList within the Ranch class. 
 
 Another refactoring change would be to change the Reader, Writer, or GameTicker into a singleton design pattern, as they are used sparingly, and there are never more than one of these instances in the program at any time.
 
